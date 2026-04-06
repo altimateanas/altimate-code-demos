@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    tables:
+      - name: raw_customers
+      - name: raw_orders
+      - name: raw_payments
+      - name: raw_products
+      - name: raw_events

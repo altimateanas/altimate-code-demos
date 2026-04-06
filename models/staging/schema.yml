@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: stg_customers
+  - name: stg_orders
+  - name: stg_payments
+  - name: stg_events

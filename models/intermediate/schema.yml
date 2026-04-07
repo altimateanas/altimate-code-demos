@@ -4,3 +4,15 @@ models:
   - name: int_orders_enriched
   - name: int_customer_sessions
   - name: int_product_performance
+  - name: int_orders_payments
+  - name: int_orders_payments_shipping
+  - name: int_orders_customers
+  - name: int_orders_customers_payments
+  - name: int_refunds_enriched
+  - name: int_customer_order_stats
+  - name: int_promo_order_stats
+  - name: int_product_inventory_latest
+  - name: int_sessions_customers
+  - name: int_product_order_stats
+  - name: int_product_review_stats
+  - name: int_customer_profiles

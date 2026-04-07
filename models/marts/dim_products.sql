@@ -5,7 +5,16 @@
 
 SELECT DISTINCT
     p.*,
-    i.*,
+    i.snapshot_id,
+    i.warehouse_location,
+    i.quantity_on_hand,
+    i.quantity_reserved,
+    i.reorder_point,
+    i.snapshot_date,
+    i.unit_cost,
+    i.supplier_id,
+    i.total_inventory,
+    i.available_quantity,
     r.avg_rating,
     r.review_count,
     latest.latest_snapshot

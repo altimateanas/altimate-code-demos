@@ -6,7 +6,7 @@ SELECT
     p.*,
     COUNT(o.order_id) as orders_with_promo,
     SUM(CAST(o.amount AS DECIMAL(10,2))) as revenue_from_promo,
-    COUNT(o.order_id) / p.max_uses as redemption_rate,
+    COUNT(o.order_id) / NULLIF(p.max_uses, 0) as redemption_rate,
     CASE
         WHEN COUNT(o.order_id) >= 500 THEN 'top_performer'
         WHEN COUNT(o.order_id) >= 100 THEN 'good'

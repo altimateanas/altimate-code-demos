@@ -30,7 +30,9 @@ LEFT JOIN (
     GROUP BY customer_id
 ) order_stats
 ON c.id = order_stats.customer_id
+LEFT JOIN {{ ref('stg_orders') }} co
+ON co.customer_id = c.id
 LEFT JOIN raw_payments pay
-ON pay.order_id IN (SELECT order_id FROM {{ ref('stg_orders') }} WHERE customer_id = c.id)
-WHERE pay.status != 'failed'
+ON pay.order_id = co.order_id
+WHERE pay.status != 'failed' OR pay.status IS NULL
 ORDER BY order_stats.total_spent DESC

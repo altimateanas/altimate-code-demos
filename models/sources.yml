@@ -2,6 +2,8 @@ version: 2
 
 sources:
   - name: ecommerce
+    database: anas
+    schema: js_dbt
     tables:
       - name: raw_customers
       - name: raw_orders

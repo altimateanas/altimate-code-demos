@@ -4,7 +4,7 @@
 
 SELECT
     *,
-    times_used / max_uses as utilization_rate,
+    times_used / NULLIF(max_uses, 0) as utilization_rate,
     CASE
         WHEN CAST(discount_value AS DECIMAL(10,2)) >= 20 THEN 'premium'
         WHEN CAST(discount_value AS DECIMAL(10,2)) >= 10 THEN 'standard'

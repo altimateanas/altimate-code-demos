@@ -49,4 +49,4 @@ ON o.customer_id = c.id
 LEFT JOIN raw_payments p
 ON o.order_id = p.order_id
 
-ORDER BY o.order_date DESC
+ORDER BY order_date DESC

@@ -8,6 +8,3 @@ models:
   - name: dim_customers
   - name: dim_products
   - name: dim_promotions
-  - name: rpt_customer_ltv
-  - name: rpt_monthly_sales
-  - name: rpt_product_reviews

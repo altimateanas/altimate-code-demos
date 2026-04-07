@@ -5,6 +5,7 @@ models:
   - name: stg_orders
   - name: stg_payments
   - name: stg_events
+  - name: stg_products
   - name: stg_refunds
   - name: stg_shipping
   - name: stg_reviews
@@ -13,3 +14,4 @@ models:
   - name: stg_sessions
   - name: stg_suppliers
   - name: stg_employee_sales
+  - name: stg_customer_support

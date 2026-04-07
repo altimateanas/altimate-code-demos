@@ -16,3 +16,4 @@ sources:
       - name: raw_sessions
       - name: raw_suppliers
       - name: raw_employee_sales
+      - name: raw_customer_support

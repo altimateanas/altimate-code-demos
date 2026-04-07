@@ -1,0 +1,63 @@
+# Profile configuration for altimate_code_demos
+# Supports multiple warehouse targets for cross-warehouse demos
+
+altimate_code_demos:
+  target: dev
+  outputs:
+
+    # Primary development target - Snowflake
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: TRANSFORM_ROLE
+      database: ANALYTICS_DEV
+      warehouse: TRANSFORM_WH
+      schema: DBT_DEV
+      threads: 4
+
+    # Production target - Snowflake
+    prod:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: TRANSFORM_ROLE
+      database: ANALYTICS_PROD
+      warehouse: TRANSFORM_WH
+      schema: DBT_PROD
+      threads: 8
+
+    # BigQuery analytics warehouse
+    bigquery:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('GCP_PROJECT_ID', 'ecommerce-analytics-prod') }}"
+      dataset: ecommerce_analytics
+      threads: 4
+      timeout_seconds: 300
+      location: US
+
+    # Postgres application database (source of truth for customers)
+    postgres:
+      type: postgres
+      host: "{{ env_var('PG_HOST', 'localhost') }}"
+      user: "{{ env_var('PG_USER', 'analytics') }}"
+      password: "{{ env_var('PG_PASSWORD') }}"
+      port: 5432
+      dbname: ecommerce_app
+      schema: public
+      threads: 4
+
+    # SQL Server legacy warehouse (migration source)
+    sqlserver:
+      type: sqlserver
+      driver: "ODBC Driver 18 for SQL Server"
+      server: "{{ env_var('MSSQL_HOST', 'legacy-warehouse.internal') }}"
+      port: 1433
+      database: LegacyReporting
+      schema: dbo
+      user: "{{ env_var('MSSQL_USER') }}"
+      password: "{{ env_var('MSSQL_PASSWORD') }}"
+      threads: 4

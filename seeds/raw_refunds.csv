@@ -1,0 +1,41 @@
+refund_id,order_id,payment_id,refund_amount,refund_reason,refund_date,status,processed_by,notes
+7001,1009,5009,59.99,wrong_item,2024-02-05,approved,E003,Customer received wrong color
+7002,1009,5009,15.00,wrong_item,2024-02-08,approved,E003,Partial refund for shipping
+7003,1016,5016,119.00,defective,2024-06-10,approved,E001,Product stopped working after 2 weeks
+7004,1027,5027,55.99,changed_mind,2024-12-05,approved,E005,Customer changed mind within return window
+7005,1042,5040,67.50,late_delivery,2025-07-15,pending,,Delivery was 2 weeks late
+7006,1005,5005,199.00,duplicate_charge,2023-10-20,approved,E002,Order was cancelled but charged
+7007,1012,5012,89.99,duplicate_charge,2024-04-01,approved,E002,
+7008,1010,5010,50.00,changed_mind,2024-03-01,approved,E004,Partial refund requested
+7009,1018,5018,30.00,defective,2024-07-20,pending,E001,Minor scratch on product
+7010,1021,5021,155.00,late_delivery,2024-09-15,approved,E003,Never delivered
+7011,1035,5035,205.00,duplicate_charge,2025-04-02,approved,E002,Cancelled order was charged
+7012,1001,5001,10.00,changed_mind,2023-07-01,rejected,E005,Outside return window
+7013,1014,5014,25.00,defective,2024-05-15,approved,E001,Partial refund for damaged packaging
+7014,1023,5023,99.99,wrong_item,2024-10-10,pending,,Wrong size shipped
+7015,1031,5031,20.00,changed_mind,2025-02-10,rejected,E004,
+7016,9999,,50.00,defective,2024-06-01,approved,E003,Order not found in system
+7017,9998,,75.00,wrong_item,2024-08-15,pending,,Legacy order refund
+7018,9997,,30.00,duplicate_charge,2025-01-20,approved,E002,System error
+7019,1004,5004,89.99,defective,2023-10-01,approved,E001,Product recalled
+7020,1008,5008,149.99,wrong_item,2024-02-01,approved,E003,Completely wrong product
+7021,1020,5020,78.00,late_delivery,2024-08-25,approved,E005,Delivered after promised date
+7022,1024,5024,185.00,changed_mind,2024-11-01,rejected,E004,High value item no return
+7023,1029,5029,79.99,defective,2025-01-15,approved,E001,Stopped working
+7024,1032,5032,92.00,wrong_item,2025-02-28,pending,,
+7025,1037,5037,135.99,changed_mind,2025-05-01,approved,E005,Customer upgraded instead
+7026,1002,5002,129.50,defective,2023-08-20,approved,E001,Overheated during use
+7027,1006,5006,34.50,changed_mind,2023-11-20,rejected,,Outside policy
+7028,1011,5011,42.50,wrong_item,2024-03-20,approved,E003,Color mismatch
+7029,1015,5015,29.99,duplicate_charge,2024-05-25,approved,E002,Double charged
+7030,1026,5026,142.00,late_delivery,2024-12-01,pending,E005,Holiday shipping delay
+7031,1033,5033,34.99,defective,2025-03-10,approved,E001,
+7032,1038,5038,72.50,wrong_item,2025-05-20,pending,,Wrong model sent
+7033,1040,5040,44.99,changed_mind,2025-06-15,approved,E004,Found cheaper elsewhere
+7034,1003,5003,25.00,defective,2023-09-01,,E001,Product quality issue
+7035,1013,5013,65.00,late_delivery,2024-04-20,,E005,Shipping delayed
+7036,1019,5019,45.99,wrong_item,2024-08-01,approved,E003,
+7037,1025,5025,37.50,changed_mind,2024-11-15,rejected,E004,Gift card purchase non-refundable
+7038,1034,5034,115.50,defective,2025-03-25,approved,E001,Stitching came undone
+7039,1039,5039,189.00,late_delivery,2025-06-01,pending,,International shipping issue
+7040,1007,5007,75.00,wrong_item,2024-01-05,approved,E003,Wrong variant shipped

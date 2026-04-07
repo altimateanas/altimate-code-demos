@@ -34,10 +34,28 @@ seeds:
       +column_types:
         price: varchar(20)
         is_active: varchar(10)
+    raw_refunds:
+      +column_types:
+        refund_amount: varchar(20)
+    raw_shipping:
+      +column_types:
+        shipping_cost: varchar(20)
+    raw_promotions:
+      +column_types:
+        discount_value: varchar(20)
+        min_order_amount: varchar(20)
+    raw_inventory:
+      +column_types:
+        unit_cost: varchar(20)
+    raw_employee_sales:
+      +column_types:
+        commission_pct: varchar(20)
 
 models:
   altimate_code_demos:
     staging:
+      +materialized: view
+    intermediate:
       +materialized: view
     marts:
       +materialized: table

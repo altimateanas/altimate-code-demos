@@ -8,3 +8,11 @@ sources:
       - name: raw_payments
       - name: raw_products
       - name: raw_events
+      - name: raw_refunds
+      - name: raw_shipping
+      - name: raw_reviews
+      - name: raw_promotions
+      - name: raw_inventory
+      - name: raw_sessions
+      - name: raw_suppliers
+      - name: raw_employee_sales

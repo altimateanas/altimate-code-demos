@@ -1,0 +1,47 @@
+session_id,user_id,session_start,session_end,landing_page,exit_page,page_views,device_type,browser,referrer_source,is_converted
+sess_a001,1,2023-06-15 09:55:00,2023-06-15 10:20:00,/home,/checkout,5,desktop,chrome,google,true
+sess_b001,2,2023-07-20 14:25:00,2023-07-20 15:00:00,/products,/checkout,4,mobile,safari,direct,1
+sess_c001,3,2023-08-10 08:55:00,2023-08-10 09:35:00,/products,/checkout,6,desktop,chrome,google,true
+sess_e001,5,2023-10-12 13:50:00,2023-10-12 14:25:00,/home,/products,3,tablet,safari,facebook,false
+sess_d001,4,2023-11-01 10:40:00,2023-11-01 11:05:00,/products,/checkout,3,desktop,firefox,google,true
+sess_f001,6,2023-07-22 10:25:00,2023-07-22 10:35:00,/signup,/home,2,desktop,chrome,email,0
+sess_f002,6,2023-12-15 15:25:00,2023-12-15 16:05:00,/home,/checkout,4,mobile,safari,direct,true
+sess_g001,7,2024-01-08 09:25:00,2024-01-08 10:05:00,/products,/checkout,5,desktop,chrome,google,1
+sess_h001,8,2024-02-14 08:25:00,2024-02-14 09:05:00,/home,/checkout,3,desktop,chrome,email,true
+sess_j001,10,2024-03-01 13:55:00,2024-03-01 14:35:00,/deals,/checkout,4,mobile,safari,instagram,true
+sess_m001,13,2024-01-10 08:10:00,2024-01-10 08:20:00,/signup,/home,2,desktop,chrome,google,false
+sess_m002,13,2024-04-22 09:40:00,2024-04-22 10:20:00,/products,/checkout,5,desktop,chrome,direct,1
+sess_n001,14,2024-05-10 11:25:00,2024-05-10 12:05:00,/home,/checkout,4,tablet,safari,google,true
+sess_a002,1,2024-07-01 13:25:00,2024-07-01 14:05:00,/products,/checkout,4,desktop,chrome,direct,true
+sess_q001,17,2024-07-18 10:55:00,2024-07-18 11:35:00,/deals,/checkout,3,mobile,chrome,facebook,1
+sess_s001,19,2024-09-10 12:25:00,2024-09-10 13:05:00,/home,/checkout,5,desktop,firefox,google,true
+sess_v001,22,2024-10-30 10:10:00,2024-10-30 10:50:00,/products,/checkout,3,desktop,chrome,direct,true
+sess_z001,26,2024-12-25 08:55:00,2024-12-25 09:50:00,/deals,/checkout,4,mobile,safari,email,true
+sess_ab001,28,2025-01-22 10:55:00,2025-01-22 11:35:00,/home,/checkout,3,desktop,chrome,google,1
+sess_a003,1,2025-04-15 12:40:00,2025-04-15 13:20:00,/products,/checkout,4,desktop,chrome,direct,true
+sess_b002,2,2025-06-01 13:25:00,2025-06-01 14:05:00,/products,/checkout,3,mobile,safari,google,true
+sess_x001,90,2024-02-10 10:00:00,2024-02-10 10:15:00,/home,/products,3,desktop,chrome,google,false
+sess_x002,90,2024-05-20 14:00:00,2024-05-20 14:30:00,/deals,/products,4,desktop,chrome,facebook,0
+sess_x003,91,2024-06-15 09:00:00,2024-06-15 09:20:00,/home,/home,1,mobile,safari,direct,false
+sess_x004,91,2024-08-01 16:00:00,,/products,,0,mobile,safari,instagram,
+sess_x005,92,2024-09-05 11:00:00,2024-09-05 11:45:00,/home,/checkout,6,Desktop,chrome,google,true
+sess_x006,92,2024-11-10 15:00:00,2024-11-10 15:25:00,/products,/products,2,desktop,firefox,direct,false
+sess_x007,93,2024-12-01 10:00:00,2024-12-01 10:30:00,/home,/checkout,4,desktop,edge,google,1
+sess_x008,93,2025-02-15 13:00:00,,/products,,0,tablet,,email,
+sess_x009,94,2025-03-10 09:00:00,2025-03-10 09:25:00,/deals,/products,3,mobile,chrome,facebook,false
+sess_x010,94,2025-05-01 14:00:00,2025-05-01 13:30:00,/home,/home,2,mobile,chrome,direct,0
+sess_browse01,15,2024-02-20 10:00:00,2024-02-20 10:30:00,/home,/products,4,desktop,chrome,google,false
+sess_browse02,16,2024-04-10 15:00:00,2024-04-10 15:20:00,/products,/products,2,mobile,safari,instagram,false
+sess_browse03,18,2024-08-15 11:00:00,2024-08-15 11:40:00,/deals,/products,5,desktop,firefox,google,0
+sess_browse04,20,2024-10-05 09:00:00,2024-10-05 09:15:00,/home,/home,1,tablet,safari,direct,false
+sess_browse05,21,2024-10-20 14:00:00,,/products,,0,mobile,chrome,,
+sess_browse06,23,2024-11-25 10:00:00,2024-11-25 10:35:00,/deals,/products,4,desktop,edge,email,false
+sess_browse07,24,2024-12-15 16:00:00,2024-12-15 16:25:00,/home,/products,3,Desktop,chrome,google,0
+sess_browse08,25,2025-01-05 11:00:00,2025-01-05 11:20:00,/products,/products,2,mobile,safari,direct,false
+sess_browse09,27,2025-02-01 14:00:00,2025-02-01 14:30:00,/home,/products,3,desktop,chrome,facebook,false
+sess_browse10,29,2025-03-01 09:00:00,2025-03-01 09:40:00,/deals,/checkout,5,desktop,firefox,google,true
+sess_browse11,31,2025-04-05 13:00:00,2025-04-05 13:35:00,/products,/checkout,4,mobile,chrome,email,1
+sess_browse12,32,2025-05-10 10:00:00,2025-05-10 10:10:00,/home,/home,1,desktop,chrome,direct,false
+sess_browse13,33,2025-06-01 15:00:00,2025-06-01 15:30:00,/products,/products,3,desktop,chrome,google,false
+sess_browse14,34,2025-06-20 11:00:00,2025-06-20 11:40:00,/home,/checkout,5,mobile,safari,direct,true
+sess_browse15,35,2025-07-15 14:00:00,2025-07-15 14:35:00,/deals,/checkout,4,desktop,chrome,facebook,1

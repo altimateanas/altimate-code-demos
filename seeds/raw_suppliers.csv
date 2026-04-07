@@ -1,0 +1,31 @@
+supplier_id,supplier_name,contact_email,phone,country,rating,contract_start,contract_end,is_active,payment_terms_days
+2001,Acme Corp,acme@acmecorp.com,+1-555-0101,US,4.5,2022-01-01,,true,30
+2002,SportsTech Industries,sports@sportstech.com,+1-555-0102,US,4.2,2022-03-15,,true,30
+2003,Euro Supplies GmbH,info@eurosupplies.de,+49-555-0103,DE,3.8,2022-06-01,,1,60
+2004,ACME Corp,contact@acmecorp.com,+1-555-0101,US,4.5,2022-01-01,,true,30
+2005,Pacific Electronics,sales@pacelec.cn,+86-555-0105,CN,4.0,2022-09-01,2025-12-31,true,90
+2006,HomeStyle Manufacturing,info@homestyle.com,+1-555-0106,US,4.3,2023-01-15,,true,30
+2007,Acme Corporation,acme.corp@email.com,+1-555-0101,US,4.5,2022-01-01,,1,30
+2008,Tokyo Trading Co,sales@tokyotrading.jp,+81-555-0108,JP,4.1,2023-04-01,,true,60
+2009,Mumbai Textiles,infomuimbaitextiles.in,+91-555-0109,IN,3.5,2023-06-01,2024-06-01,false,90
+2010,London Goods Ltd,sales@londongoods.co.uk,+44-555-0110,UK,4.0,2023-08-01,,true,30
+2011,Pacific Electronics,sales@pacelec.cn,+86-555-0105,CN,4.0,2022-09-01,2025-12-31,true,90
+2012,SportsTech Industries,sales@sportstech.com,+1-555-0102,US,4.2,2022-03-15,,1,30
+2013,Berlin Stationery,hello@berlinstationery.de,+49-555-0113,DE,3.9,2023-10-01,,true,60
+2014,Seoul Tech Supplies,info@seoultech.kr,+82-555-0114,KR,4.4,2024-01-01,,true,30
+2015,HomeStyle Manufacturing,info@homestyle.com,+1-555-0106,US,4.3,2023-01-15,,true,30
+2016,Shanghai Imports,contact@shanghaiimports.cn,+86-555-0116,CN,3.7,2024-03-01,,1,90
+2017,Nordic Sports AB,info@nordicsports.se,+46-555-0117,SE,4.6,2024-05-01,,true,30
+2018,Euro Supplies GMBH,info@eurosupplies.de,+49-555-0103,DE,3.8,2022-06-01,,true,60
+2019,Atlas Global Trading,atlas@globaltrading.com,+1-555-0119,US,0,2024-07-01,2024-06-01,false,30
+2020,Osaka Manufacturing,sales@osakamanuf.jp,+81-555-0120,JP,4.2,2024-08-01,,true,60
+2021,Sydney Home Goods,hello@sydneyhome.au,+61-555-0121,AU,3.9,2024-09-01,,true,30
+2022,Acme Corp,acme@acmecorp.com,+1-555-0101,US,,2022-01-01,,true,30
+2023,Toronto Supplies Inc,info@torontosupplies.ca,+1-555-0123,CA,4.1,2024-11-01,,true,30
+2024,Pacific Electronics Ltd,sales@pacelec.cn,+86-555-0105,CN,4.0,2022-09-01,2025-12-31,1,90
+2025,Milan Fashion Co,contact@milanfashion.it,+39-555-0125,IT,4.3,2025-01-01,,true,60
+2026,Delhi Imports,info@delhiimports.in,+91-555-0126,IN,3.6,2025-02-01,,,90
+2027,Bangkok Trading,sales@bangkoktrading.th,+66-555-0127,TH,3.8,2025-03-01,,true,60
+2028, Acme Corp ,acme@acmecorp.com,+1-555-0101,US,4.5,2022-01-01,,true,30
+2029,Munich Electronics,info@munichelectronics.de,+49-555-0129,DE,4.4,2025-05-01,,true,30
+2030,Vancouver Sports,hello@vancsports.ca,+1-555-0130,CA,4.0,2025-06-01,,true,30

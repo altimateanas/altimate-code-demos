@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: ecommerce
+    database: anas
+    schema: js_dbt
+    tables:
+      - name: raw_customers
+      - name: raw_orders
+      - name: raw_payments
+      - name: raw_products
+      - name: raw_events
+      - name: raw_refunds
+      - name: raw_shipping
+      - name: raw_reviews
+      - name: raw_promotions
+      - name: raw_inventory
+      - name: raw_sessions
+      - name: raw_suppliers
+      - name: raw_employee_sales
+      - name: raw_customer_support

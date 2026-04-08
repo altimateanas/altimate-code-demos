@@ -1,0 +1,21 @@
+ticket_id,customer_id,customer_email,customer_phone,customer_ssn_last4,ip_address,credit_card_last4,issue_type,priority,created_at,resolved_at,agent_name,notes
+T001,1,alice.johnson@email.com,+1-555-0201,4532,192.168.1.101,4242,billing,high,2024-01-15 10:00:00,2024-01-15 14:30:00,Agent Smith,Customer disputed charge of $89.99 on card ending 4242
+T002,2,bob.smith@email.com,+1-555-0202,7891,10.0.0.55,1234,shipping,medium,2024-01-20 09:00:00,2024-01-21 11:00:00,Agent Jones,Package tracking shows delivered but customer says not received
+T003,5,eve.davis@email.com,+1-555-0205,2345,172.16.0.88,5678,account,high,2024-02-01 15:00:00,2024-02-01 16:00:00,Agent Smith,Customer wants to delete account and all personal data - GDPR request
+T004,3,carol.w@email.com,+44-555-0203,6789,192.168.2.200,9012,product,low,2024-02-10 11:00:00,,Agent Wilson,Asking about product compatibility - still waiting for vendor response
+T005,8,henry.moore@email.com,+1-555-0208,1234,10.0.1.15,3456,billing,critical,2024-02-14 08:00:00,2024-02-14 09:00:00,Agent Smith,Duplicate charge on Valentines Day order - refund processed to card ending 3456
+T006,10,jack.anderson@email.com,+1-555-0210,5678,192.168.1.50,7890,shipping,medium,2024-03-01 14:00:00,2024-03-03 10:00:00,Agent Jones,Shipped to old address - customer moved. New address: 123 Oak St Apt 4B
+T007,13,mia.white@email.com,+44-555-0213,9012,172.16.1.100,2345,account,low,2024-04-22 10:00:00,2024-04-22 11:30:00,Agent Wilson,Password reset requested - verified identity with DOB 1999-03-15
+T008,14,noah.h@email.com,+1-555-0214,3456,10.0.2.75,6789,product,medium,2024-05-10 12:00:00,2024-05-12 09:00:00,Agent Smith,Product arrived damaged - photos sent to support@company.com
+T009,1,alice.johnson@email.com,+1-555-0201,4532,192.168.1.101,4242,billing,high,2024-07-01 13:00:00,2024-07-01 15:00:00,Agent Jones,Another billing dispute - subscription charge. Customer SSN verified for identity
+T010,17,quinn.m@email.com,+1-555-0217,7890,192.168.3.25,1357,shipping,low,2024-07-18 11:00:00,2024-07-19 14:00:00,Agent Wilson,Package delayed - weather related
+T011,19,sam.clark@email.com,+33-555-0219,2468,10.0.3.100,2468,account,medium,2024-09-10 13:00:00,2024-09-10 14:00:00,Agent Smith,Update email from sam.clark@oldmail.com to sam.clark@email.com
+T012,22,victor.lee@email.com,+1-555-0222,1357,172.16.2.50,3579,billing,high,2024-10-30 10:00:00,2024-10-30 12:00:00,Agent Jones,Charged in wrong currency - customer bank: Chase ending 3579
+T013,26,zach.y@email.com,+1-555-0226,4680,192.168.4.10,4680,product,low,2024-12-25 09:00:00,,Agent Wilson,Product question on Christmas Day - gift for daughter age 8
+T014,28,brian.w@email.com,+1-555-0228,5791,10.0.4.200,5791,shipping,critical,2025-01-22 11:00:00,2025-01-23 09:00:00,Agent Smith,Express shipping not delivered on time - full refund to Visa ending 5791
+T015,30,derek.hill@email.com,+1-555-0230,6802,192.168.5.75,6802,account,medium,2025-02-20 10:00:00,2025-02-20 11:30:00,Agent Jones,Account merge request - has 2 accounts with different emails
+T016,1,alice.johnson@email.com,+1-555-0201,4532,192.168.1.101,4242,billing,medium,2025-04-15 13:00:00,2025-04-15 14:00:00,Agent Smith,Requesting invoice for tax purposes - employer: Acme Corp EIN 12-3456789
+T017,33,gina.a@email.com,+49-555-0233,7913,172.16.3.150,7913,product,low,2025-05-20 15:00:00,2025-05-21 10:00:00,Agent Wilson,Product recall inquiry - batch number BN-2025-0042
+T018,34,hugo.b@email.com,+1-555-0234,8024,10.0.5.50,8024,shipping,medium,2025-06-15 11:00:00,,Agent Jones,International shipping to Brazil - customs hold. Passport: AB1234567
+T019,35,ivy.n@email.com,+44-555-0235,9135,192.168.6.25,9135,account,high,2025-07-15 14:00:00,2025-07-15 15:00:00,Agent Smith,Account compromised - suspicious login from IP 85.14.233.102 in Russia
+T020,4,david.brown@email.com,+1-555-0204,0246,172.16.4.200,0246,billing,critical,2025-08-05 08:00:00,2025-08-05 10:00:00,Agent Jones,Fraudulent charges detected - card cancelled. Police report #2025-FR-8842

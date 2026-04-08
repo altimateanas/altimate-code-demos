@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: int_orders_enriched
+  - name: int_customer_sessions
+  - name: int_product_performance

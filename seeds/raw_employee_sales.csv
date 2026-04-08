@@ -1,0 +1,36 @@
+record_id,employee_id,employee_name,order_id,commission_pct,department,hire_date,is_active
+11001,E001,Sarah Chen,1001,0.05,sales,2022-06-01,true
+11002,E001,Sarah Chen,1004,0.05,sales,2022-06-01,true
+11003,E002,Mike Johnson,1002,0.08,sales,2022-09-15,true
+11004,E002,Mike Johnson,1006,0.08,Sales,2022-09-15,1
+11005,E003,Lisa Park,1003,0.05,sales,2023-01-10,true
+11006,E003,Lisa Park,1007,0.05,sales,2023-01-10,true
+11007,E004,James Wilson,1008,0.10,sales,2023-04-01,true
+11008,E004,james wilson,1010,0.10,SALES,2023-04-01,1
+11009,E005,Amy Rodriguez,1011,0.05,support,2023-07-15,true
+11010,E005, Amy Rodriguez,1013,0.05,support,2023-07-15,true
+11011,E001,Sarah Chen,1014,0.05,sales,2022-06-01,true
+11012,E002,mike johnson,1015,0.08,sales,2022-09-15,true
+11013,E003,Lisa Park,1017,0.05,sales,2023-01-10,true
+11014,E004,James Wilson,1018,0.10,sales,2023-04-01,true
+11015,E005,Amy Rodriguez,1019,0.05,support,2023-07-15,true
+11016,E006,Tom Davis,1020,0.08,sales,2024-01-15,true
+11017,E006,Tom Davis,1022,0.08,Sales,2024-01-15,true
+11018,E007,Rachel Kim,1024,0.10,sales,2024-04-01,true
+11019,E007,Rachel Kim,1025,0.10,sales,2024-04-01,1
+11020,E008,David Brown,1026,0.05,support,2024-06-15,true
+11021,E008,David Brown,1028,0.05,support,2024-06-15,true
+11022,E001,Sarah Chen,1029,0.05,sales,2022-06-01,true
+11023,E002,Mike Johnson,1030,0.08,sales,2022-09-15,true
+11024,E003,Lisa Park,1031,0.05,sales,2023-01-10,true
+11025,E004,James Wilson,1032,0.10,sales,2023-04-01,true
+11026,E006,Tom Davis,1033,0.08,sales,2024-01-15,true
+11027,E007,Rachel Kim,1034,0.10,sales,2024-04-01,true
+11028,E008,David Brown,1036,0.05,support,2024-06-15,true
+11029,E001,Sarah Chen,1037,0.05,sales,2022-06-01,true
+11030,E002,Mike Johnson,1038,0.08,sales,2022-09-15,true
+11031,E006,Tom Davis,1039,1.50,sales,2024-01-15,true
+11032,E007,Rachel Kim,1040,0.10,sales,2024-04-01,true
+11033,E008,David Brown,1041,0.05,support,2024-06-15,true
+11034,E001,Sarah Chen,1043,0.05,sales,2022-06-01,true
+11035,E004,James Wilson,1044,0.10,sales,2025-09-01,true

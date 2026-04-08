@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: fct_order_summary
+  - name: fct_daily_revenue
+  - name: fct_refunds
+  - name: fct_shipping_performance
+  - name: dim_customers
+  - name: dim_products
+  - name: dim_promotions

@@ -1,0 +1,56 @@
+id,first_name,last_name,email,created_at,status,age,country,region,city
+1,Alice,Johnson,alice.johnson@email.com,2023-02-15 08:30:00,active,28,US,AMER,New York
+2,Bob,Smith,bob.smith@email.com,2023-03-20 14:15:00,active,35,US,AMER,San Francisco
+3,Carol,Williams,carol.w@email.com,2023-04-10 09:00:00,inactive,42,UK,EMEA,London
+4,David,Brown,david.brown@email.com,2023-05-01 11:45:00,active,31,CA,AMER,Toronto
+5,Eve,Davis,eve.davis@email.com,2023-06-18 16:20:00,churned,26,US,AMER,Chicago
+6,Frank,Miller,frank.m@email.com,2023-07-22 10:30:00,active,38,DE,EMEA,Berlin
+7,Grace,Wilson,grace.wilson@email.com,2023-08-05 13:00:00,active,29,UK,EMEA,Manchester
+8,Henry,Moore,henry.moore@email.com,2023-09-12 08:00:00,active,45,US,AMER,Austin
+9,Iris,Taylor,iris.t@email.com,2023-10-03 15:30:00,inactive,33,FR,EMEA,Paris
+10,Jack,Anderson,jack.anderson@email.com,2023-10-28 09:45:00,active,27,US,AMER,Seattle
+11,Karen,Thomas,karen.t@email.com,2023-11-15 12:00:00,active,36,CA,AMER,Vancouver
+12,Leo,Jackson,leo.j@email.com,2023-12-01 14:30:00,churned,41,US,AMER,Miami
+13,Mia,White,mia.white@email.com,2024-01-10 08:15:00,active,24,UK,EMEA,Edinburgh
+14,Noah,Harris,noah.h@email.com,2024-01-25 11:00:00,active,30,US,AMER,Denver
+15,Olivia,Martin,olivia.m@email.com,2024-02-14 16:45:00,active,34,DE,EMEA,Munich
+16,Paul,Garcia,paul.garcia@email.com,2024-03-08 09:30:00,inactive,39,US,AMER,Houston
+17,Quinn,Martinez,quinn.m@email.com,2024-03-22 13:15:00,active,27,CA,AMER,Montreal
+18,Ruby,Robinson,ruby.r@email.com,2024-04-05 10:00:00,active,32,US,AMER,Portland
+19,Sam,Clark,sam.clark@email.com,2024-05-18 15:00:00,active,29,FR,EMEA,Lyon
+20,Tina,Rodriguez,tina.r@email.com,2024-06-01 08:45:00,churned,37,US,AMER,Dallas
+21,Uma,Lewis,uma.lewis@email.com,2024-06-20 12:30:00,active,25,UK,EMEA,Bristol
+22,Victor,Lee,victor.lee@email.com,2024-07-10 14:00:00,active,43,US,AMER,Boston
+23,Wendy,Walker,wendy.w@email.com,2024-07-30 09:15:00,active,31,DE,EMEA,Hamburg
+24,Xavier,Hall,xavier.h@email.com,2024-08-15 11:45:00,,28,US,AMER,Phoenix
+25,Yara,Allen,yara.allen@email.com,2024-09-02 16:00:00,active,35,CA,AMER,Calgary
+26,Zach,Young,zach.y@email.com,2024-09-20 10:30:00,active,40,US,AMER,Atlanta
+27,Amy,King,amy.king@email.com,2024-10-08 13:00:00,inactive,26,UK,EMEA,Leeds
+28,Brian,Wright,brian.w@email.com,2024-10-25 08:30:00,active,33,US,AMER,Nashville
+29,Clara,Lopez,clara.l@email.com,2024-11-12 15:15:00,active,38,FR,EMEA,Marseille
+30,Derek,Hill,derek.hill@email.com,2024-12-01 09:00:00,active,30,US,AMER,Charlotte
+31,Elena,Scott,elena.s@email.com,2024-12-18 12:45:00,active,27,CA,AMER,Ottawa
+32,Felix,Green,felix.g@email.com,2025-01-05 14:30:00,churned,44,US,AMER,Minneapolis
+33,Gina,Adams,gina.a@email.com,2025-01-20 10:00:00,active,29,DE,EMEA,Frankfurt
+34,Hugo,Baker,hugo.b@email.com,2025-02-08 11:30:00,active,36,US,AMER,San Diego
+35,Ivy,Nelson,ivy.n@email.com,2025-02-25 16:00:00,active,32,UK,EMEA,Birmingham
+36,Kenji,Tanaka,kenji.t@email.com,2023-05-10 09:00:00,active,31,JP,APAC,Tokyo
+37,Li,Wei,li.wei@email.com,2023-06-15 10:30:00,active,28,CN,APAC,Shanghai
+38,Priya,Sharma,priya.s@email.com,2023-08-20 14:00:00,active,33,IN,APAC,Mumbai
+39,Akiko,Sato,akiko.s@email.com,2023-09-25 11:00:00,active,27,JP,APAC,Osaka
+40,Chen,Ming,chen.ming@email.com,2023-11-10 08:45:00,active,40,CN,APAC,Beijing
+41,Raj,Patel,raj.p@email.com,2024-01-05 13:00:00,active,35,IN,APAC,Bangalore
+42,Yuki,Yamamoto,yuki.y@email.com,2024-02-20 10:15:00,active,29,JP,APAC,Kyoto
+43,Anh,Nguyen,anh.n@email.com,2024-04-12 15:30:00,active,26,VN,APAC,Ho Chi Minh
+44,Maria,Santos,maria.s@email.com,2024-05-08 09:00:00,active,34,BR,AMER,Sao Paulo
+45,Pedro,Costa,pedro.c@email.com,2024-06-22 11:45:00,active,38,BR,AMER,Rio de Janeiro
+46,Sofia,Hernandez,sofia.h@email.com,2024-07-15 14:00:00,active,30,MX,AMER,Mexico City
+47,Kim,Soo-yeon,kim.sy@email.com,2024-08-05 10:00:00,active,25,KR,APAC,Seoul
+48,Ahmed,Hassan,ahmed.h@email.com,2024-09-10 12:30:00,active,41,AE,EMEA,Dubai
+49,Fatima,Al-Rashid,fatima.r@email.com,2024-10-01 08:00:00,active,32,AE,EMEA,Abu Dhabi
+50,Luca,Rossi,luca.r@email.com,2024-10-20 15:00:00,active,37,IT,EMEA,Milan
+51,Hans,Schmidt,hans.s@email.com,2024-11-05 09:30:00,active,44,AT,EMEA,Vienna
+52,Nina,Johansson,nina.j@email.com,2024-11-18 13:00:00,active,28,SE,EMEA,Stockholm
+53,Tom,O-Brien,tom.ob@email.com,2024-12-02 10:00:00,active,35,IE,EMEA,Dublin
+54,Sakura,Ito,sakura.i@email.com,2024-12-15 14:30:00,active,26,JP,APAC,Nagoya
+55,Wei,Zhang,wei.z@email.com,2025-01-10 11:00:00,active,39,CN,APAC,Shenzhen

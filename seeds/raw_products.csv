@@ -1,0 +1,31 @@
+product_id,product_name,category,price,created_at,is_active,weight_kg
+101,Basic T-Shirt,clothing,29.99,2023-01-10 08:00:00,true,0.2
+102,Cotton Socks Pack,clothing,12.99,2023-01-10 08:00:00,true,0.1
+103,Notebook Set,books,15.00,2023-02-15 09:00:00,1,0.5
+104,Ballpoint Pen Pack,books,8.99,2023-02-15 09:00:00,true,0.1
+105,Wireless Mouse,electronics,45.00,2023-03-20 10:00:00,true,0.15
+106,USB-C Cable,electronics,19.99,2023-03-20 10:00:00,1,0.05
+107,Yoga Mat,sports,35.00,2023-04-10 11:00:00,true,1.2
+108,Running Shoes,sports,89.99,2023-04-10 11:00:00,true,0.8
+109,Table Lamp,home,55.00,2023-05-01 12:00:00,true,2.5
+110,Throw Pillow,home,25.00,2023-05-01 12:00:00,0,0.6
+111,Bluetooth Speaker,electronics,75.00,2023-06-15 13:00:00,true,0.4
+112,Standing Desk,home,299.00,2023-06-15 13:00:00,true,25.0
+113,Winter Jacket,clothing,149.99,2023-07-20 14:00:00,false,1.5
+114,Cookbook,books,24.99,2023-07-20 14:00:00,true,0.8
+115,Resistance Bands,sports,18.50,2023-08-10 15:00:00,1,0.3
+116,Monitor Stand,home,42.00,2023-08-10 15:00:00,true,3.0
+117,Graphic Novel,books,19.99,2023-09-05 16:00:00,true,0.4
+118,Hiking Backpack,sports,65.00,2023-09-05 16:00:00,0,1.1
+119,Mechanical Keyboard,electronics,129.00,2023-10-12 17:00:00,true,0.9
+120,Scented Candle,home,14.99,2023-10-12 17:00:00,true,0.3
+121,Denim Jacket,clothing,89.00,2023-11-01 08:00:00,true,1.2
+122,Fitness Tracker,electronics,199.00,2023-11-01 08:00:00,true,0.05
+123,Chess Set,books,32.00,2023-12-01 09:00:00,false,1.5
+124,Jump Rope,sports,12.00,2023-12-01 09:00:00,true,0.2
+125,Floor Lamp,home,85.00,2024-01-15 10:00:00,true,4.0
+126,Wool Sweater,clothing,69.99,2024-01-15 10:00:00,1,0.6
+127,Webcam HD,electronics,59.00,2024-02-10 11:00:00,true,0.2
+128,Plant Pot Set,home,28.50,2024-02-10 11:00:00,true,2.0
+129,Trail Shoes,sports,110.00,2024-03-05 12:00:00,true,0.9
+130,Desk Organizer,home,22.00,2024-03-05 12:00:00,true,0.7
